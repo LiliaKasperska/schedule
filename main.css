@@ -1,0 +1,165 @@
+td {
+    font-family: Cambria;
+    font-size: 14px;
+    height: 22px;
+    
+}
+button {
+    padding: 0;
+    text-align: center;     
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+
+.s{
+				width: 40px;
+				height: 40px;
+				opacity: 1;
+				position: fixed;
+				bottom: 50px;
+				right: 100px;
+				display: none;
+				text-indent: -9999px;
+				background: url('img/up.png') no-repeat;
+				}
+/*
+.add {   додати пару  
+    height: 94px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.group-name {   назва групи форматування  
+    font-size: 22px;
+    background-color: #C0C0C0;
+    text-align: center;
+    font-weight: bold;
+    width: 180px;
+}
+.teacher-sp {   форматування кураторів, спеціальностей  
+    font-style: italic;
+    text-align: center;
+}
+   заголовок розкладу   
+.td-1 {   ширина назв груп та кураторів  
+    width: 180px;
+}
+.td-2 {   назви спеціальностей в групі  
+    width: 90px;    
+    height: 22px;
+}
+  Дні, пари   
+.day {  пн, вт, ср, чт, пт  
+    font-size: 22px;
+    font-weight: bold;
+    width: 44px;
+    text-align: center;
+}
+.lesson {   1,2,3,4,5,6,7  
+    font-weight: bold;
+    width: 25px;
+    text-align: center;
+}
+.hidden-bottom {
+    border-bottom: hidden;
+}
+*/
+/* --------------------- */
+
+.border-down {
+    border-bottom: solid black 1px;
+}
+
+.border-right {
+    border-right: solid black 1px;
+}
+/*   1 пара   */
+.subject-one { /*  одна пара  */
+    height: 44px;
+    border-bottom: hidden;
+    border-top: hidden;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 180px;
+}
+.room-teacher-one {
+    text-align: right;
+    font-style: italic;
+    line-height: 1;
+    padding-right: 1%;
+    width: 180px;
+}
+
+/*   верхи / низи   */
+.subject-two { /*  одна пара  */
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 180px;
+}
+.room-two {
+    text-align: left;
+    font-style: italic;
+    line-height: 1;
+    padding-left: 1%;
+    width: 30px;
+}
+.teacher-two {
+    text-align: right;
+    font-style: italic;
+    line-height: 1;
+    padding-right: 1%;
+    width: 150px;
+}
+
+/*   спеціальність | спеціальність   */
+.room-teacher-left {
+    text-align: right;
+    font-style: italic;
+    line-height: 1;
+    padding-left: 1%;
+    width: 90px;
+    border-right: solid black 1px;
+}
+.room-teacher-right {
+    text-align: right;
+    font-style: italic;
+    line-height: 1;
+    padding-left: 1%;
+    width: 90px;
+}
+.subject-s-one { /*  одна пара  */
+    height: 44px;
+    border-bottom: hidden;
+    border-top: hidden;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 90px;
+}
+
+/*   1 спеціальність верхи / низи   */
+.room-s-two {
+    text-align: left;
+    font-style: italic;
+    line-height: 1;
+    padding-left: 1%;
+    width: 10px;
+}
+.teacher-s-two {
+    text-align: right;
+    font-style: italic;
+    line-height: 1;
+    padding-right: 1%;
+    width: 70px;
+}
+.subject-s-two { /*  одна пара  */
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 89px;
+    height: 22px;
+}
